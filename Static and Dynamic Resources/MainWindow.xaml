@@ -1,0 +1,28 @@
+﻿<Window x:Class="Static_and_Dynamic_Resources.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Static_and_Dynamic_Resources" xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="200">
+
+    <Window.Resources>
+        <sys:String x:Key="comboBoxTitle">This is Static Combobox</sys:String>
+        <sys:String x:Key="testoConferma">Hai confermato la scelta!</sys:String>
+
+        <x:Array x:Key="comboboxItems" Type="sys:String">
+            <sys:String>Item #1</sys:String>
+            <sys:String>Item #2</sys:String>
+            <sys:String>Item #3</sys:String>
+        </x:Array>
+    </Window.Resources>
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+        <Label Content="{StaticResource comboBoxTitle}"></Label>
+        <ComboBox ItemsSource="{StaticResource comboboxItems}"></ComboBox>
+
+        <Button Content="Confirm" Margin="0 5" Background="Red" Foreground="White" FontWeight="Bold" 
+                Click="ConfirmButtonClick"></Button>
+    </StackPanel>
+</Window>

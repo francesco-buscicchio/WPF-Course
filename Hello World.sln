@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events Click", "Eventi Mous
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Software Conditioning by Parameter", "Software Conditioning by Parameter\Software Conditioning by Parameter.csproj", "{A713DF58-17C0-4B8E-A12B-C946D7CF6F76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static and Dynamic Resources", "Static and Dynamic Resources\Static and Dynamic Resources.csproj", "{1A753F21-E8FA-462B-A992-D37DDC0D3B1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A713DF58-17C0-4B8E-A12B-C946D7CF6F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A713DF58-17C0-4B8E-A12B-C946D7CF6F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A713DF58-17C0-4B8E-A12B-C946D7CF6F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A753F21-E8FA-462B-A992-D37DDC0D3B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A753F21-E8FA-462B-A992-D37DDC0D3B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A753F21-E8FA-462B-A992-D37DDC0D3B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A753F21-E8FA-462B-A992-D37DDC0D3B1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
