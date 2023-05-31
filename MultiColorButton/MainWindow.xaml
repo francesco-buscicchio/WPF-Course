@@ -1,0 +1,17 @@
+﻿<Window x:Class="MultiColorButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiColorButton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button FontWeight="Bold" Width="100" Height="20" Background="White">
+            <WrapPanel Orientation="Horizontal">
+                <TextBlock Foreground="Red">Multi</TextBlock>
+                <TextBlock Foreground="Blue">Color</TextBlock>
+            </WrapPanel>
+        </Button>
+    </Grid>
+</Window>

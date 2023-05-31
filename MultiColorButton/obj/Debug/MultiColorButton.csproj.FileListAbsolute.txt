@@ -1,0 +1,16 @@
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\bin\Debug\MultiColorButton.exe.config
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\bin\Debug\MultiColorButton.exe
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\bin\Debug\MultiColorButton.pdb
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MultiColorButton.csproj.AssemblyReference.cache
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MultiColorButton.csproj.SuggestedBindingRedirects.cache
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MainWindow.g.cs
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\App.g.cs
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MultiColorButton_MarkupCompile.cache
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MultiColorButton_MarkupCompile.lref
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MainWindow.baml
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MultiColorButton.g.resources
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MultiColorButton.Properties.Resources.resources
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MultiColorButton.csproj.GenerateResource.cache
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MultiColorButton.csproj.CoreCompileInputs.cache
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MultiColorButton.exe
+C:\Users\francesco.buscicchio\Desktop\Corso WPF\Hello World\MultiColorButton\obj\Debug\MultiColorButton.pdb
