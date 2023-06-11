@@ -1,0 +1,21 @@
+﻿<Window x:Class="TextBlock_Formattazione_Inline.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBlock_Formattazione_Inline"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="200">
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <TextBlock Margin="15 5" TextWrapping="Wrap">
+              This
+              <Span FontWeight="Bold">is</Span>  
+              a 
+              <Span Background="DarkGray" Foreground="Red">TextBlock</Span>   
+              with 
+              <Span TextDecorations="Baseline" FontStyle="Italic">several</Span>  
+                Span elements,
+              <Span Foreground="Blue" >using a <Span FontWeight="Bold">variety</Span> of styles</Span>
+        </TextBlock>
+    </Grid>
+</Window>

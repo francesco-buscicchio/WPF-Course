@@ -1,0 +1,30 @@
+﻿<Window x:Class="Label_Control.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Label_Control"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="250">
+    
+    
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Center">
+        <StackPanel Orientation="Vertical" Margin="10">
+            <Label>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="..\icons\dot_red.png" Width="8" Height="8"></Image>
+                    <Label>Name</Label>
+                </StackPanel>
+                </Label>
+            <TextBox Name="nameTextBox"></TextBox>
+            <Label>
+                <StackPanel Orientation="Horizontal">
+                <Image Source="..\icons\dot_blue.png" Width="8" Height="8"></Image>
+                <Label>Surname</Label>
+            </StackPanel>
+            </Label>
+            <TextBox Name="surnameTextBox"></TextBox>
+        </StackPanel>
+    </Grid>
+    
+</Window>

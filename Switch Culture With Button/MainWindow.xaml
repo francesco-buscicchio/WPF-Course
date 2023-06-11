@@ -1,0 +1,21 @@
+﻿<Window x:Class="Switch_Culture_With_Button.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Switch_Culture_With_Button"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+            <Label Content="" Name="numberLabel" HorizontalAlignment="Center"></Label>
+            <Label Content="" Name="dateLabel" HorizontalAlignment="Center"></Label>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="IT Culture" Name="itButton" Click="itButton_Click" Margin="3 6" Padding="7 4"></Button>
+                <Button Content="DE Culture" Name="deButton" Click="deButton_Click" Margin="3 6" Padding="7 4"></Button>
+                <Button Content="US Culture" Name="usButton" Click="usButton_Click"  Margin="3 6" Padding="7 4"></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
